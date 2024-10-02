@@ -1,0 +1,14 @@
+project-root/
+│
+├── assets/
+│   ├── styles.css               # CSS file for styling
+│   └── pss-template.png         # Image for the template
+│
+├── js/
+│   ├── login.js                 # JavaScript for login page validation
+│   └── generator.js             # JavaScript for generating the filled image
+│
+├── index.html                   # Login page (main entry point)
+├── generator.html               # Generator page (where the template is generated)
+├── README.md                    # Project instructions or details (optional)
+├── .gitignore                   # Optional if using Git
