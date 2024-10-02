@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generator</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Generate Document</h2>
+        <form id="generatorForm">
+            <label for="date">Date:</label>
+            <input type="text" id="date" placeholder="DD/MM/YY"><br><br>
+            
+            <label for="username">Username:</label>
+            <input type="text" id="username" placeholder="MG MG"><br><br>
+
+            <label for="usermail">User Email:</label>
+            <input type="email" id="usermail" placeholder="mgmg@home.com"><br><br>
+
+            <label for="enddate">End Date:</label>
+            <input type="text" id="enddate" placeholder="DD/MM/YY"><br><br>
+
+            <label for="invoice">Invoice ID:</label>
+            <input type="text" id="invoice" placeholder="AEIOU123"><br><br>
+
+            <label for="payment">Payment Method:</label>
+            <input type="text" id="payment"><br><br>
+
+            <label for="amount">Paid Amount:</label>
+            <input type="text" id="amount"><br><br>
+
+            <label for="issuer">Issuer:</label>
+            <input type="text" id="issuer"><br><br>
+
+            <label for="note">Note:</label>
+            <input type="text" id="note"><br><br>
+
+            <button type="button" onclick="generateImage()">Generate JPG</button>
+        </form>
+
+        <canvas id="templateCanvas" width="1086" height="768" style="display:none;"></canvas>
+        <a id="downloadLink" style="display:none;">Download</a>
+    </div>
+
+    <script src="js/generator.js"></script>
+</body>
+</html>
